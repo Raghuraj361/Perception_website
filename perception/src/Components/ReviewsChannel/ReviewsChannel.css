@@ -1,0 +1,71 @@
+.ReviewsChannel_container {
+  width: 100%;
+  height: 70vh;
+}
+.ReviewsChannel_heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-family: emoji;
+  font-size: 39px;
+}
+.ReviewsChannel_container2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.icon {
+  width: 20px;
+  background-color: #40af92;
+  border-radius: 50%;
+}
+.leftHeading {
+  font-weight: 500;
+  font-family: emoji;
+  font-size: 24px;
+}
+.leftHeading span {
+  color: #40af92;
+}
+.ReviewsChannel_app {
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+  line-height: 50px;
+}
+.ReviewsChannel_leftApp {
+  display: flex;
+  flex-direction: column;
+}
+.ReviewsChannel_rightApp {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .ReviewsChannel_container {
+    width: 70%;
+    height: 100%;
+}
+.ReviewsChannel_container2 {
+  display: flex;
+  flex-direction: column;
+}
+.ReviewsChannel_heading {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-right: 37px;
+}
+.leftHeading {
+  font-size: 15px;
+  width: 100%;
+}
+.ReviewsChannel_app {
+  gap: 21px;
+}
+.ReviewsChannel_RightSection img {
+width: 248px;
+}
+
+
+}

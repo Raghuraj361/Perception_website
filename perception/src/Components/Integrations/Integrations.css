@@ -1,0 +1,48 @@
+.Integrations_container {
+  width: 100%;
+  height: 55vh;
+  background-color: #fff;
+  margin-top: 163px;
+}
+.Integrations_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10px;
+}
+.Integrations_heading {
+  font-weight: 700;
+  font-family: emoji;
+  font-size: 39px;
+}
+.Integrations_paragraph {
+  font-family: emoji;
+}
+.Integrations_paragraph span {
+  color: #40af92;
+  font-size: 18px;
+}
+.Integrations_icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 125px;
+}
+.Integrations_icon img {
+  width: 145px;
+}
+
+
+@media (max-width: 768px) {
+  .Integrations_container {
+    width: 59%;
+    height: 100%;
+    margin-top: 163px;
+}
+.Integrations_paragraph {
+  font-family: emoji;
+  width: 73%;
+  line-height: 15px;
+}
+}

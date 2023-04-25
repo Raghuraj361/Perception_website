@@ -1,0 +1,48 @@
+.footer_contain {
+  background-color: #daf0ea;
+  width: 100%;
+  height: 35vh;
+}
+
+.footer_heading {
+  font-weight: 700;
+  font-family: emoji;
+  font-size: 39px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.firstDiv span {
+  display: flex;
+  margin-left: 20px;
+  font-family: emoji;
+}
+
+.footer_bottum {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+  font-family: emoji;
+}
+
+.footer_connect {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 22px;
+}
+
+.social_icon {
+  width: 25px;
+}
+
+@media (max-width: 768px) {
+  .footer_heading {
+    font-size: 21px;
+    
+}
+  .footer_bottum {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+}

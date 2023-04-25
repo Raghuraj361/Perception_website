@@ -1,0 +1,120 @@
+.login_container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login_left {
+  width: 45%;
+  height: 70vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.login_heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-family: emoji;
+  font-size: 39px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 478px;
+  margin-left: 72px;
+}
+
+.login_form input {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  border: none;
+}
+
+.login_forget {
+  display: flex;
+  justify-content: end;
+}
+
+.login_btn {
+  background-color: #40af92;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.google_btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.login_or {
+  display: flex;
+  justify-content: center;
+}
+
+.login_or span {
+  color: #40af92;
+  cursor: pointer;
+}
+
+.right_img {
+  margin-left: 220px;
+}
+
+.login_right {
+  margin-top: 20px;
+}
+
+.login_right img {
+  width: 280px;
+}
+
+.left_img {
+  display: flex;
+  justify-content: start;
+}
+
+.google_img {
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .login_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .login_left {
+    width: 66%;
+    height: 100%;
+  }
+  .login_form input {
+    margin-left: -60px;
+  }
+  .login_btn {
+    width: 122px;
+  }
+  .google_btn {
+    width: 122px;
+  }
+  .right_img {
+    display: none;
+  }
+  .left_img {
+    display: none;
+  }
+  .login_or {
+    margin-right: 332px;
+  }
+}
