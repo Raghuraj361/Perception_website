@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 768px) {
+    .footer_contain {
+    width: 63%;
+    height: 100%;
+}
   .footer_heading {
     font-size: 21px;
     
